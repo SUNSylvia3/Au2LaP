@@ -14,6 +14,11 @@ Crystal symmetry is a fundamental aspect of material properties and plays a pivo
 ## Installation
 To use Au2LaP, clone this repository and install the required dependencies.
 
+
+## Dataset Preparation
+You can refer to our paper to prepare the dataset `A`, `B`, and `A+B` accordingly. 
+
+
 ```bash
 git clone https://github.com/SUNSylvia3/Au2LaP-.git
 cd Au2LaP-
