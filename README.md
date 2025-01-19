@@ -11,12 +11,21 @@ Crystal symmetry is a fundamental aspect of material properties and plays a pivo
 ## Installation
 To use Au2LaP, clone this repository and install the required dependencies.
 
-
-## Dataset Preparation
-You can refer to our paper to prepare the dataset `A`, `B`, and `A+B` accordingly. 
-
-
 ```bash
 git clone https://github.com/SUNSylvia3/Au2LaP-.git
 cd Au2LaP-
 pip install -r requirements.txt
+```
+
+## Gradio Demo
+We are actively deploying the **Au2LaP** model and have created a simple demo to showcase its functionality.
+
+You can try the demo here: [Au2LaP Gradio Demo](https://huggingface.co/spaces/alan918727/Au2Lap)
+
+> **Note**: This is a minimal version of the predictor and is intended for demonstration purposes. The deployed model may not yet include all features mentioned in our paper. We welcome your feedback!
+
+## Dataset Preparation
+You can refer to our paper to prepare the datasets `A`, `B`, and `A+B` accordingly.
+
+## Contributions
+We welcome contributions and suggestions! Feel free to submit issues or pull requests.
