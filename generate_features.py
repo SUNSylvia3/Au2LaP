@@ -55,20 +55,20 @@ def get_features_from_formula(formula):
     result = pd.concat([ext_mag.reset_index(drop=True), mlmd_df], axis=1)
     return result
 
-def compressed_pickle(title, data):
-    """
-    Save data in a compressed format.
-    """
-    with bz2.BZ2File(title + '.pbz2', 'w') as f:
-        cPickle.dump(data, f)
-
-def decompress_pickle(file):
-    """
-    Load data from a compressed format.
-    """
-    data = bz2.BZ2File(file, 'rb')
-    data = cPickle.load(data)
-    return data
+# def compressed_pickle(title, data):
+#     """
+#     Save data in a compressed format.
+#     """
+#     with bz2.BZ2File(title + '.pbz2', 'w') as f:
+#         cPickle.dump(data, f)
+#
+# def decompress_pickle(file):
+#     """
+#     Load data from a compressed format.
+#     """
+#     data = bz2.BZ2File(file, 'rb')
+#     data = cPickle.load(data)
+#     return data
 
 # Example: Generate features directly from a chemical formula
 if __name__ == "__main__":
